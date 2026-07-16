@@ -1,0 +1,3 @@
+startCommand:
+  type: streamable-http
+  url: https://exotic-experience-arabic-return.trycloudflare.com/mcp

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://erc8004.org/schema/v1",
+  "name": "Proodos x402 Agent Engine",
+  "version": "2.3.0",
+  "description": "Token data reports and financial sentiment analysis for autonomous AI agents. Pay-per-use via x402 micropayments on Base.",
+  "base_url": "https://exotic-experience-arabic-return.trycloudflare.com",
+  "capabilities": {
+    "rest": {
+      "endpoints": [
+        {
+          "path": "/webhook/sentiment",
+          "url": "https://exotic-experience-arabic-return.trycloudflare.com/webhook/sentiment",
+          "method": "POST",
+          "price_usd": 0.01
+        },
+        {
+          "path": "/webhook/token_report",
+          "url": "https://exotic-experience-arabic-return.trycloudflare.com/webhook/token_report",
+          "method": "POST",
+          "price_usd": 0.01
+        }
+      ]
+    }
+  },
+  "payment": {
+    "protocol": "x402",
+    "chain_id": 8453,
+    "wallet": "0xd943691c1a1Eda4c571cdafDA6b0C9B3ee7A3C86",
+    "facilitator": "https://api.cdp.coinbase.com/platform/v2/x402",
+    "settlement": "USDC"
+  },
+  "infrastructure": {
+    "models": ["meta-llama/llama-4-scout-17b-16e-instruct", "deepseek-chat"],
+    "routing": "fixed-tier-v2"
+  }
+}
