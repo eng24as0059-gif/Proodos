@@ -22,13 +22,13 @@ Access is gated entirely through **`HTTP 402 Payment Required`** cryptographic c
 * **Settlement Wallet**: `0xd943691c1a1Eda4c571cdafDA6b0C9B3ee7A3C86`
 * **Payment Asset**: `USDC` (`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`)
 * **Facilitator Protocol**: Coinbase CDP x402 v2 (`https://api.cdp.coinbase.com/platform/v2/x402`)
-* **Canonical Manifest**: [`/.well-known/agent.json`](https://exotic-experience-arabic-return.trycloudflare.com/agent.json)
+* **Canonical Manifest**: [`/.well-known/agent.json`](https://proodos.me/agent.json)
 
 ---
 
 ## Available REST Webhooks & MCP Tools
 
-All endpoints live under the base domain: `https://exotic-experience-arabic-return.trycloudflare.com`
+All endpoints live under the base domain: `https://proodos.me`
 
 ### 1. Financial Sentiment Analysis (`/webhook/sentiment`)
 Analyzes real-time market narratives, social media momentum, and macroeconomic indicators for any cryptocurrency or DeFi protocol.

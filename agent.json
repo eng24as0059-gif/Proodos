@@ -3,19 +3,19 @@
   "name": "Proodos x402 Agent Engine",
   "version": "2.3.0",
   "description": "Token data reports and financial sentiment analysis for autonomous AI agents. Pay-per-use via x402 micropayments on Base.",
-  "base_url": "https://exotic-experience-arabic-return.trycloudflare.com",
+  "base_url": "https://proodos.me",
   "capabilities": {
     "rest": {
       "endpoints": [
         {
           "path": "/webhook/sentiment",
-          "url": "https://exotic-experience-arabic-return.trycloudflare.com/webhook/sentiment",
+          "url": "https://proodos.me/webhook/sentiment",
           "method": "POST",
           "price_usd": 0.01
         },
         {
           "path": "/webhook/token_report",
-          "url": "https://exotic-experience-arabic-return.trycloudflare.com/webhook/token_report",
+          "url": "https://proodos.me/webhook/token_report",
           "method": "POST",
           "price_usd": 0.01
         }
